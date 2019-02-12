@@ -15,7 +15,7 @@ import (
 )
 
 const (
-	DEFAULT_HOST = "127.0.0.1:27017"
+	DEFAULT_HOST = "172.17.0.1:27017"
 )
 
 // + 创建数据库连接 (defer)
