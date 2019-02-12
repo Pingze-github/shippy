@@ -15,5 +15,5 @@ run:
                     -e DB_PASSWORD="postgres"  \
                     -e MICRO_BROKER=nats \
                     -e MICRO_BROKER_ADDRESS=0.0.0.0:4222 \
-		    --name user-service
+                    --name user-service \
                     user-service
