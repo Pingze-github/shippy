@@ -26,7 +26,9 @@ func main() {
 
 	// 停留在港口的货船，先写死
 	repo := &VesselRepository{session.Copy()}
+	// 创建一个货船
 	CreateDummyData(repo)
+
 	server := micro.NewService(
 		micro.Name("go.micro.srv.vessel"),
 		micro.Version("latest"),

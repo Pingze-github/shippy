@@ -18,7 +18,10 @@ const (
 	DEFAULT_HOST = "127.0.0.1:27017"
 )
 
-
+// + 创建数据库连接 (defer)
+// + 创建micro服务srv (加入登录验证中间件)
+// + 创建vessel的客户端
+// + 注册handler到srv
 func main() {
 
 	// 获取容器设置的数据库地址环境变量的值
