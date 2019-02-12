@@ -15,7 +15,7 @@ import (
 )
 
 const (
-	DEFAULT_HOST = "121.201.64.69:27017"
+	DEFAULT_HOST = "172.17.0.1:27017"
 )
 
 
