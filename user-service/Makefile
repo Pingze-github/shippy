@@ -10,7 +10,7 @@ run:
                     -e MICRO_REGISTRY=mdns  \
                     -e DB_NAME="postgres"  \
                     -e DB_HOST="127.0.0.1"  \
-                    -e DB_PORT="5432"  \
+                    -e DB_PORT="5433"  \
                     -e DB_USER="postgres"  \
                     -e DB_PASSWORD="postgres"  \
                     -e MICRO_BROKER=nats \
