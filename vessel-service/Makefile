@@ -10,4 +10,4 @@ run:
 		-e MICRO_REGISTRY=mdns \
 		--link mongod:mongod \
 		--name vessel \
-		vessel-service
+		vessel-service env
