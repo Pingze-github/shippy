@@ -1,5 +1,5 @@
 build:
-	protoc -I . --go_out=plugins=micro:/Users/wuyin/Go/src/shippy/user-service proto/user/user.proto
+	protoc -I . --go_out=plugins=micro:/root/go/src/shippy/user-service proto/user/user.proto
 	GOOS=linux GOARCH=amd64 go build
 	docker build --rm -t user-service .
 
